@@ -1,0 +1,5 @@
+Tests the correctness of rounding of sleef trigonometric functions for worst cases values.
+
+Values based on this paper: http://perso.ens-lyon.fr/jean-michel.muller/TMDworstcases.pdf
+
+Tests failing with 1 bit difference are correct since the functions called in SLEEF are precise up to 1 ulp.
